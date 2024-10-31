@@ -132,4 +132,21 @@
   window.addEventListener('scroll', scrollActive)
   
   
-   
+   /*Contact from Emailjs ----------*/
+
+    (function(){
+        emailjs.init("XBfWRN6lQoANzsAdT"); // Public key
+    })();
+
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // form submit defult bahibour bundho korba ai function
+
+        // EmailJS submit form code
+        emailjs.sendForm('service_nszcypc', 'template_1xafhqn', this)
+            .then(function() {
+                alert('Message Sent Successfully!');
+            }, function(error) {
+                alert('Failed to send message, please try again.');
+                console.error('Error:', error);
+            });
+    });

@@ -6,6 +6,8 @@
 
     <!-- --------- UNICONS ---------- -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+
 
     <!-- --------- CSS ---------- -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -83,6 +85,9 @@
                         <div class="icon">
                             <a href="https://github.com/MohammadYounus68"><i class="uil uil-github-alt"></i></a>
                         </div>
+                        <!-- <div class="icon">
+                            <a href="https://codeforces.com/profile/mohammad_younus"><i class="uil uil-codeforces"></i></a>
+                        </div> -->
                 </div>
           </div>
           <div class="featured-image">
@@ -210,20 +215,24 @@
                     </div>
                 </div>
              </div>
+            <!-- contact form ------------------------------- -->
              <div class="col">
-                <div class="form-control">
-                    <div class="form-inputs">
-                        <input type="text" class="input-field" placeholder="Name">
-                        <input type="text" class="input-field" placeholder="Email">
+                <form id="contact-form">
+                    <div class="form-control">
+                        <div class="form-inputs">
+                            <input type="text" class="input-field" name="name" placeholder="Name" required>
+                            <input type="email" class="input-field" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="text-area">
+                            <textarea name="message" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                        </div>
                     </div>
-                    <div class="text-area">
-                        <textarea placeholder="Message"></textarea>
-                    </div>
-                    <div class="form-button">
-                        <button class="btn">Send <i class="uil uil-message"></i></button>
-                    </div>
-                </div>
-             </div>
+                </form>
+            </div>
+
           </div>
        </section>
 
@@ -267,7 +276,8 @@
     </div>
 
 
-
+    <!-- Emailjs cdn---------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
 
     <!-- ----- TYPING JS Link ----- -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>

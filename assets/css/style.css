@@ -77,8 +77,8 @@ i{
 
 /* ------- BASE -------- */
 body{
-/*    background: var(--body-color);*/
-    background-color: #DDBAB1;
+    background: var(--body-color);
+    
 }
 .container{
     width: 100%;

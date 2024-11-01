@@ -400,17 +400,11 @@ h3{
 }
 
 .project-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+   padding: 10px 15px 10px 15px;
+   border-radius: 10px;
+   border: none;
+   box-shadow: 1px 3px 5px black;
 }
-.project-btn:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
 /* ----- CONTACT BOX ----- */
 .contact-info{
     position: relative;

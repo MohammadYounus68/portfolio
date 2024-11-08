@@ -655,7 +655,7 @@ footer{
         width: 100%;
     }
 
-    .project-section {
+   /* .project-section {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -663,10 +663,10 @@ footer{
         width: 100%;
         margin-left: 70px;
     }
-    .section h3 {
+    .project-section h3 {
         font-size: 15px;
     }
-    .section p {
+    .project-section p {
         display: none;
     }
      .project-row {
@@ -676,8 +676,8 @@ footer{
         flex-wrap: wrap;
     }
 
-    .project-col {
-        
+    .project-header {
+        text-align: center;
     }
 
     .project-btn {
@@ -688,7 +688,7 @@ footer{
         margin-top: 10px;
         padding-top: 15px;
 
-    }
+    }*/
     
     
 }

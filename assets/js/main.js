@@ -47,7 +47,7 @@
 
 /* ----- TYPING EFFECT ----- */
    var typingEffect = new Typed(".typedText",{
-      strings : ["Developer","Designer","Compative Programmer"],
+      strings : ["Developer","Designer","Compatitive Programmer"],
       loop : true,
       typeSpeed : 100, 
       backSpeed : 80,
